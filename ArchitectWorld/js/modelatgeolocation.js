@@ -108,6 +108,10 @@ var World = {
 
 	worldError: function worldErrorFn(msg) {
 		document.getElementById('loadingMessage').innerHTML = msg ? msg : 'unexpected error';
+	},
+
+  showLocation: function showLocationFn() {
+    document.getElementById('loc').innerHTML = "Current location: " + World.myLocation.latitude + ", " + World.myLocation.longitude;
 	}
 };
 
