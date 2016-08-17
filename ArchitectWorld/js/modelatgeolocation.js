@@ -144,7 +144,7 @@ var World = {
                 })
     }
     
-};
+
 
 World.init();
 
